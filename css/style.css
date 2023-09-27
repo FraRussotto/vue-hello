@@ -1,3 +1,14 @@
-#app{
+.container{
   height: 100vh;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scale{
+  transform: scale(1.5);
 }
